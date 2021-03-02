@@ -290,6 +290,9 @@ ul{
     width: 10% !important;
     height: 35vh;
   } 
+  .card img{
+    width: 100%;
+  }
   
 }
 .social-icons
