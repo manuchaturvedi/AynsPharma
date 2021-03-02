@@ -290,9 +290,7 @@ ul{
     width: 10% !important;
     height: 30vh;
   } 
-  .card img{
-    width:90%;
-  }
+  
 }
 .social-icons
 {
@@ -411,7 +409,7 @@ input[type=text]{
   }
   .card img{
     height: 250px;
-    width: 395px;
+    width: 100%;
   transition: transform .2s; /* Animation */
   }
   .card img:hover{
