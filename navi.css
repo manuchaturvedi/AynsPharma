@@ -288,8 +288,11 @@ ul{
   }
   .w-100 {
     width: 10% !important;
-    height: 50vh;
+    height: 30vh;
   } 
+  .card img{
+    width:90%;
+  }
 }
 .social-icons
 {
