@@ -178,7 +178,7 @@ ul{
 
 .w-100 {
     width: 10% !important;
-    height: 70vh;
+    height: 75vh;
   }
 
   .product{
@@ -286,6 +286,10 @@ ul{
   {
     text-align:center
   }
+  .w-100 {
+    width: 10% !important;
+    height: 50vh;
+  } 
 }
 .social-icons
 {
@@ -402,8 +406,18 @@ input[type=text]{
     display: table;
     clear: both;
   }
-  
-  
+  .card img{
+    height: 250px;
+    width: 395px;
+  transition: transform .2s; /* Animation */
+  }
+  .card img:hover{
+    transform: scale(1.15);
+  }
+  .card-footer h5{
+    color:black;
+    text-align:center;
+  }
   
   
   .form{
