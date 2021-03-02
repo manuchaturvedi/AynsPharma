@@ -16,7 +16,7 @@ body{
     margin-left:20px;
     margin-bottom: 15px;
     margin-top: 15px;
-    border-radius: 50%;;
+    border-radius: 45%;;
     
 }
 
@@ -68,6 +68,7 @@ header a:hover{
     transition: width .3s;
 }
 
+
 .navbar-links ul  a {
     display: inline-block;
     text-decoration: none;
@@ -105,6 +106,9 @@ header a:hover{
     .navbar {
         flex-direction: column;
         align-items: flex-start;
+    }
+    .card-img-top{
+      width: 100px;
     }
   
 
@@ -160,8 +164,11 @@ header a:hover{
    .forr{
     min-height: 800px;
 }
-}
 
+}
+.cardin{
+  width: 30%;
+}
 .fab{
     margin-top: 4%;
     margin-right: auto;
@@ -292,6 +299,9 @@ ul{
   } 
   .card img{
     width: 100%;
+  }
+  .cardin{
+    width:100%;
   }
   
 }
