@@ -6,7 +6,7 @@ toggleButton.addEventListener('click', () => {
   })
 
   $('.carousel').carousel({
-    interval: 10000
+    interval: 3000
   })
 
   function initMap() {
